@@ -13,7 +13,7 @@ on:
 
 env:
   AWS_REGION: ap-southeast-2  # Change this to your AWS region
-  ECR_REPOSITORY: bibek-registry  # Change this to your ECR repository name
+  ECR_REPOSITORY: aws-essentials/ashma-private  # Change this to your ECR repository name
   EC2_HOST: ec2-54-252-158-225.ap-southeast-2.compute.amazonaws.com # Change this to your EC2 host
 
 jobs:
