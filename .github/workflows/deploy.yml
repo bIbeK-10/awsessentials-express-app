@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+        inputs:
+            BRANCH:
+                description: "BRANCH"
+                default: "master"
+                required: true
 
 env:
   AWS_REGION: ap-southeast-2  # Change this to your AWS region
